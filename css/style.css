@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*
+
+Author:Alvi Escobar
+Email:Alvi@gmail.com
+Website:www.alvi.com
+
+*/
+/*
+==Index==
+1.HOME 
+2. HOW IT WORKS 
+3.DISCOVER A PROJECT 
+4. BLOG 
+5.FIND OUT MORE
+*/
+*/ Global Css */
+
+h1{
+    font-size: 50px;
+}
+become-btn{
+    font-size: 20px;
+}
+h2{
+    font-size: 32px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 24px;
+}
+h6{
+    font-size: 17px;
+}
+
+
+
+/*theme css*/
+.nav-link js-scroll-trigger active{
+    color: aqua;
+}
+.nav-item{
+        margin: 25px 9px;
+   
+}
+.nav-link.js-scroll-trigger.active{
+    color: #adadad;
+    font-weight: 500;
+}
+.nav-link.js-scroll-trigger{
+    color: #adadad;
+    font-weight: 500;
+}
+.home{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-text{
+    text-align: center;
+}
+.home-text h1{
+    margin-top: 120px;
+       color: white;
+    font-size: 50px;
+        font-weight: 400;
+}
+.become-btn{
+      color: #fff;
+    border: none;
+    padding: 23px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #99c50a;
+    margin-bottom: 127px;
+    margin-top: 42px;
+}
+.home-text p{
+    font-size: 36px;
+        color: white;
+    font-weight: 300;
+}
+.nav-link.js-scroll-trigger:hover{
+    color: blueviolet;
+}
+.become-btn:hover{
+    background-color: #fff;
+    color: #99c50a;
+}
+.abt-how{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    text-align: center;
+   
+}
+.abt-how img{
+    margin-top: 75px;
+}
+.abt-how h2{
+        font-size: 32px;
+    color: #515151;
+    width: 36%;
+    margin: 0px auto;
+    display: block;
+    margin-top: 50px;
+    line-height: 50px;
+}
+.abt-how p{
+    font-size: 20px;
+    color: #bdbdbd;
+    font-weight: 400;
+    width: 80%;
+    margin: 0px auto;
+        margin-top: 60px;
+    line-height: 35px;
+}
+.abt-how h6{
+    font-size: 20px;
+    color: #bdbdbd;
+      font-weight: 400;
+    width: 80%;
+    margin: 0px auto;
+        margin-top: 60px;
+    line-height: 35px;
+        margin-bottom: 100px;
+    
+}
+.find-full{
+    width: 50%;
+    float: left;
+    padding: 25px 0px;
+    background-color: #e2f8ff;
+}
+.find-img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.find-text h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #515151;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+.find-text p{
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 500;
+    color: #515151;
+        width: 70%;
+}
+.mem-btn{
+       padding: 10px 20px;
+    border: none;
+    background-color: #26a6d1;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 29px;
+}
+.buyer-full{
+    width: 50%;
+    float: left;
+    padding: 25px 0px;
+     background-color: #f5f9eb;
+}
+.sub-btn{
+        padding: 10px 20px;
+    border: none;
+    background-color: #add136;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 29px;
+}
+.find{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+}
+.last-img{
+        width: 100%;
+    float: left;
+   padding: 20px 0px
+}
+.fo{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    border-top: 3px solid #a9a9a96b;
+    text-align: center;
+}
+.fo p{
+  color: #b5b5b5;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.blog{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+}
+.men-btn{
+        padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #838383;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 2px solid #838383;
+    margin-top: 65px;
+}
+.blog-text p{
+    font-size: 19px;
+    color: #a5a5a5;
+}
+.blog-text{
+    margin-top: 30px;
+}
+.card{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    margin: 0px auto;
+}
+.gp-btn{
+         font-size: 20px;
+    background-color: #26a6d1;
+    color: white!important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 31%;
+    right: 5%;
+    border: none;
+}
+.card-text {
+        font-size: 17px;
+    line-height: 2;
+    color: #7b7b7b;
+    padding-bottom: 50px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #484848;
+    padding-bottom: 10px;
+}
+.card-body{
+    
+}
+.card-body h4{
+          display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+.card-body h6{
+        display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7b7b7b;
+    float: right;
+}
+.card-body span{
+    border-bottom: 1px solid #d6d6d6;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.card-body a{
+        text-decoration: none;
+    margin-left: 118px;
+    font-size: 20px;
+    color: #7b7b7b;
+}
+.fa.fa-caret-right{
+        font-size: 20px;
+    margin-bottom: 30px;
+    color: #add136;
+}
+.dis{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+}
+.bg-text{
+    
+}
+.bg-text h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #515151;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+.bg-text p{
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 600;
+    color: #515151;
+    width: 80%;
+    display: block;
+}
+.bg-btn{
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #26a6d1;
+    color: white;
+    border-radius: 10px;
+}
+.bg-btn-two{
+padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: #add136;
+    color: white;
+    border-radius: 10px;
+}
+.bg{
+    background-color: #e2f8ff;
+    padding: 50px 0px;
+    
+}
+.bg-two{
+      background-color: #f5f9eb;
+    padding: 50px 0px;
+}
+.bg-i img{
+        margin: 0px auto;
+    display: block;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+/*media quary*/
+@media(min-width: 320px) and (max-width: 576px){
+    .bg-text h1{
+        text-align: center;
+    }
+    .bg-text p{
+        text-align: center;
+    width: 70%;
+    margin: 0px auto;
+    }
+    .bg-btn-two{
+        text-align: center;
+        margin: 0px auto;
+        display: block;
+    }
+    .bg-btn{
+       text-align: center;
+        margin: 0px auto;
+        display: block;
+        
+    }
+    
+    .nav-item{
+        margin: 0px 0px;
+}
+    .home-text h1{
+        font-size: 32px;
+    margin-top: 30px;
+    }
+    .home{
+        background-position: center top;
+    }
+    .home-text p{
+    font-size: 32px;
+        color: white;
+    font-weight: 300;
+}
+    .become-btn{
+      color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: #99c50a;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    }
+    
+    
+    .abt-how h2{
+        font-size: 24px;
+    width: 100%;
+    line-height: 35px;
+    margin-top: 20px;
+    }
+    .abt-how img{
+    margin-top: 30px;
+}
+    .abt-how p{
+       width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+    }
+    .abt-how h6{
+       width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+            margin-bottom: 50px;
+    }
+    
+    
+    .find-full{
+        width: 100%;
+        float: left;
+    }
+    .buyer-full{
+        width: 100%;
+        float: left;
+    }
+    .find-full img{
+        text-align: center;
+    }
+    .find-text h3{
+        text-align: center;
+    }
+    .find-text p{
+        
+    text-align: center;
+    width: 70%;
+    font-size: 14px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+
+    }
+    .sub-btn{
+        text-align: center;
+        margin: 0px auto;
+        display: block;
+    }
+    .mem-btn{
+         text-align: center;
+        margin: 0px auto;
+        display: block;
+    }
+    .gp-btn{
+            font-size: 16px;
+    background-color: #26a6d1;
+    color: white!important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    border: none;
+    }
+    .card-body a{
+        font-size: 14px;
+       
+    }
+}
+@media(min-width: 576.01px) and (max-width: 768px){
+       .nav-item{
+        margin: 0px 0px;
+}
+    .home{
+        background-position: center top;
+    }
+   
+    
+    
+    
+     .abt-how h2{
+        font-size: 27px;
+    width: 100%;
+    line-height: 35px;
+    margin-top: 25px;
+    }
+    .abt-how img{
+    margin-top: 35px;
+}
+    .abt-how p{
+       width: 100%;
+    font-size: 17px;
+    margin-top: 25px;
+    }
+    .abt-how h6{
+       width: 100%;
+    font-size: 17px;
+    margin-top: 25px;
+            margin-bottom: 50px;
+    }
+    
+    
+    
+     .find-full{
+        width: 100%;
+    }
+    .find-full img{
+        text-align: center;
+    }
+    .find-text h3{
+        text-align: center;
+    }
+    .find-text p{
+        text-align: center;
+        width: 100%;
+    }
+    .sub-btn{
+        text-align: center;
+        margin: 0px auto;
+        display: block;
+    }
+    .mem-btn{
+         text-align: center;
+        margin: 0px auto;
+        display: block;
+    }
+    
+}
+@media(min-width: 768.01px) and (max-width: 992px){
+    .home{
+        background-position: center top;
+    }
+    
+    
+         .abt-how h2{
+        font-size: 30px;
+    width: 100%;
+    line-height: 40px;
+    margin-top: 30px;
+    }
+    .abt-how img{
+    margin-top: 35px;
+}
+    .abt-how p{
+       width: 100%;
+    font-size: 19px;
+    margin-top: 30px;
+    }
+    .abt-how h6{
+       width: 100%;
+    font-size: 19px;
+    margin-top: 30px;
+            margin-bottom: 60px;
+    }
+    .find-text p{
+        width: 100%;
+    }
+   .gp-btn {
+    font-size: 11px;
+    background-color: #26a6d1;
+    color: white!important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    border: none;
+    }
+    .nav-link.js-scroll-trigger {
+        font-size: 9px;
+    }
+    
+}
+@media(min-width: 992.01px) and (max-width: 1200px){
+    .abt-how h2{
+        width: 43%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
